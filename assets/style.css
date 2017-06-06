@@ -29,6 +29,8 @@
         border-radius: 12px;
     }
     
+    
+    
     .first {
         /* "http://dash.ga.co/assets/firstcourse.jpg" */
         background: url("firstcourse.jpg");
@@ -52,7 +54,7 @@
         background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4));
         padding: 5px;
         text-align: justify;
-        line-height: 20px;
+        line-height: 25px;
         position: absolute;
         /* To slide the paragraph down to the bottom of the div */
         bottom: 0;
@@ -61,6 +63,20 @@
         /* To stick the paragraph to the bottom of the div */
     }
     
+    small {
+        color: rgba(255, 255, 255, 0);
+    }
+    
+    .show-description p {
+        height: 100px;
+    }
+    
+    .show-description small {
+        color: rgba(255, 255, 255, 1)
+        /* opacity: 1; */
+    }
+
+
     .price {
         float: right;
     }
