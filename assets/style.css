@@ -29,8 +29,6 @@
         border-radius: 12px;
     }
     
-    
-    
     .first {
         /* "http://dash.ga.co/assets/firstcourse.jpg" */
         background: url("firstcourse.jpg");
@@ -61,6 +59,9 @@
         /* To slide the paragraph down to the bottom of the div */
         margin: 0;
         /* To stick the paragraph to the bottom of the div */
+        transition: height .5s;
+        -webkit-transition: height .5s;
+        -moz-transition: height .5s;
     }
     
     small {
@@ -75,8 +76,7 @@
         color: rgba(255, 255, 255, 1)
         /* opacity: 1; */
     }
-
-
+    
     .price {
         float: right;
     }
