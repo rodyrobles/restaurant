@@ -31,15 +31,15 @@
     
     .first {
         /* "http://dash.ga.co/assets/firstcourse.jpg" */
-        background: url("assets/firstcourse.jpg");
+        background: url("firstcourse.jpg");
     }
     
     .second {
-        background: url("assets/secondcourse.jpg");
+        background: url("secondcourse.jpg");
     }
     
     .dessert {
-        background: url("assets/dessertcourse.jpg");
+        background: url("dessertcourse.jpg");
     }
     
     p {
@@ -65,3 +65,9 @@
         float: right;
     }
     
+    @media (max-width: 350px) {
+  h1 {
+    font-size: 50px;
+    
+    }
+  }
